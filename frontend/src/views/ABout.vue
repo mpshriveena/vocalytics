@@ -13,7 +13,7 @@
             below it. Check out your History of Transcriptions and insights. If you are facing any issues or recommending some features, 
             kindly contact us. We are happy to hear from you.
         </h4>
-        <h4>You can search for your transcriptions based on thw words or language from the history 
+        <h4>You can search for your transcriptions based on the words or language from the history 
             of transcriptions page. In the Insights page you will be able to see top 
             10 frequent words transcribed by you, top 10 words transcribed by all users till now and 
             3 top unique phrases. If any information is found to be mistaken, kindly contact the admin 

@@ -66,7 +66,7 @@
       
       methods:{
           LogIn(){
-            this.$axios.post('http://127.0.0.1:5000/', {
+            this.$axios.post('https://0e59-59-182-251-46.ngrok-free.app', {
               email: this.email,
               password: this.password
             }).then(response => {
@@ -233,12 +233,18 @@
       color:rgb(1, 4, 161);
     }
     @media screen and (max-width: 768px) {
+
 .inhome{
   flex-direction:column;
+  height: 100vh; 
 }
 .login .form-box{
-  height:50vh;
+  min-height:50vh;
   
+}
+
+.form-box .input-box{
+  width:280px;
 }
     }
     

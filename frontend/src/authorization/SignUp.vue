@@ -1,9 +1,11 @@
 <template>
   <div class='body'>
     <div class="inbody">
-        <div class="signup-box">
+        <div class="sign2">
+          <div class="signup-box">
         <form @submit.prevent="SignUp">
           <h1><strong>Register</strong></h1>
+         
           <div class = "inputbox">
             <input type="text" id="username" placeholder="name" v-model="username" required>
             <label>Username</label>
@@ -28,7 +30,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
 </template>
 
 <script>
@@ -66,7 +68,7 @@ export default{
 
 </script>
 <style scoped>
-.body {
+    .body {
       margin:0;
       padding: 0;
       box-sizing: border-box;
@@ -83,13 +85,20 @@ export default{
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     min-width: 30%;
-    height: 60vh; 
+    height: 55vh; 
     overflow: auto;
     display:flex;
-    flex-direction:row;
-    column-gap: 5%;
+  
+  
   }
-  .signup-box{
+    
+    
+    .body .sign2{
+      width:100%;
+      height: 100%;
+    }
+    
+    .sign2 .signup-box{
       display:flex;
       justify-content:center;
       align-items:center;
@@ -170,6 +179,18 @@ export default{
     .login-link a:hover {
       text-decoration: underline; 
     }
+    .logo{
+      color:rgb(1, 4, 161);
+    }
+    @media screen and (max-width: 768px) {
 
 
+.sign2 .signup-box{
+  min-height:50vh;
+  
+}
+
+
+    }
+    
 </style>
